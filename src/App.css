@@ -123,25 +123,35 @@
   background: rgba(0, 0, 0, 0.3);
   z-index: 100;
 }
+.main {
+  margin-top: 56px;
+  margin-left: 100px;
+}
 
-
-@media (max-width: 768px) {
+@media (max-width: 568px) {
   .toolbar_navigation-items {
     display: none;
   }
+  .main {
+    margin-left: 40px;
+  }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 569px) {
   .side-drawer {
     display: none;
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 569px) {
   .toolbar__toggle-button {
     display: none;
   }
   .toolbar__logo {
     margin-left: 0;
   }
+  
 }
+
+
+

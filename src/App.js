@@ -1,8 +1,10 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Toolbar from './components/Toolbar/Toolbar';
 import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
+import Home from './components/Home';
+import About from './components/About';
 
 import "./App.css";
 
@@ -35,9 +37,10 @@ class App extends React.Component {
           <Toolbar drawerClickHandler={this.drawerToggleClickHandler}/>
           <SideDrawer show={this.state.sideDrawerOpen} />
           {backdrop}
-          <main style={{marginTop: '56px'}}>
-            
-            <p>this is the content</p>
+          <main className="main">
+
+            <Route exact path="/" component={Home} />
+            <Route exact path="/about" component={About} />
           </main>    
         </div>
       </Router>

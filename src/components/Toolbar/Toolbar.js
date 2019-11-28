@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import DrawerToggleButton from '../SideDrawer/DrawerToogleButton';
 
 const toolbar = props => (
@@ -7,12 +8,12 @@ const toolbar = props => (
             <div className="toolbar__toggle-button">
                 <DrawerToggleButton click={props.drawerClickHandler} />
             </div>
-            <div className="toolbar__logo"><a href="/">LOGO</a></div>
+            <div className="toolbar__logo"><Link to="/" >LOGO</Link></div>
             <div className="spacer"></div>
             <div className="toolbar_navigation-items">
                 <ul>
-                    <li><a href="/">Products</a></li>
-                    <li><a href="/">Users</a></li>
+                    <li><Link to="/about" >About</Link></li>
+                    <li><Link to="/" >home</Link></li>                    
                 </ul>
             </div>
         </nav>
