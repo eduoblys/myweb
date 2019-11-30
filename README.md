@@ -1,4 +1,4 @@
-It is live on GH-Pages  https://eduoblys.github.io/myweb/
+
 <div>
 
   <h2>My Portfolio Web App</h2>
