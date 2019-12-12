@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Home = props => (
-    <div>About</div> 
+    <div className="text-field">About adfafdfafaaaaaaaaaaaage</div>
 );
     
 export default Home;

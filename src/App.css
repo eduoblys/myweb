@@ -50,108 +50,44 @@
 }
 
 
-.toggle-button {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 26px;
-  height: 16px;
-  border: none;
-  background: transparent;
-  cursor: pointer;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.toggle-button:focus {
-  outline: none;
-}
-
-.toggle-button__line {
-  width: 21px;
-  height: 2px;
-  background: white;
-}
-
-
-.side-drawer {
-  height: 100%;
-  background: white;
-  box-shadow: 1px 0px 9px rgba(0,0,0,0.5);
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 60%;
-  max-width: 350px;
-  z-index: 200;
-  transform: translateX(-100%);
-  transition: transform 0.3s ease-out;
-}
-
-.side-drawer.open {
-  transform: translateX(0);
-}
-
-.side-drawer ul {
-  height: 100%;
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.side-drawer li {
-  margin: 0.5rem 0;
-}
-
-.side-drawer a {
-  color: green;
-  text-decoration: none;
-  font-size: 1.3rem;
-}
-
-.side-drawer a:hover,
-.side-drawer a:active {
-  color: yellow;
-}
-
-.backdrop {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.3);
-  z-index: 100;
-}
 .main {
   margin-top: 56px;
-  margin-left: 100px;
+
 }
 
-@media (max-width: 568px) {
-  .toolbar_navigation-items {
-    display: none;
-  }
+@media (min-width: 768px) {
   .main {
-    margin-left: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+@media (min-width: 425px) {
+  .main {
+    margin-top: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 }
 
 @media (min-width: 569px) {
-  .side-drawer {
-    display: none;
-  }
+
 }
 
-@media (min-width: 569px) {
-  .toolbar__toggle-button {
-    display: none;
-  }
-  .toolbar__logo {
-    margin-left: 0;
-  }
-  
+.text-field {
+  border-style: dotted;
+  padding: 5px;
+
 }
 
+.body,html {
+  height: 100%;
+}
+.bg {
 
-
+  background-image: url("./components/background_pic.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
