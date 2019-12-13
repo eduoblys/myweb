@@ -3,8 +3,8 @@
   top: 0;
   left: 0;
   width: 100%;
-  background: #253324;
-  height: 39px;
+  background: #1f291f;
+  height: 49px;
 }
 
 .toolbar__navigation {
@@ -46,7 +46,7 @@
 
 .toolbar_navigation-items a:hover,
 .toolbar_navigation-items a:active {
-  color: green;
+  color: rgb(197, 124, 56);
 }
 
 
@@ -86,7 +86,7 @@
 .bg {
 
   background-image: url("./components/background_pic.jpg");
-  height: 100vh;
+  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

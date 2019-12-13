@@ -6,10 +6,7 @@ import About from './components/About';
 
 import "./App.css";
 
-import desktopImage from './components/background_pic.jpg';
-import mobileImage from './components/background_pic.jpg';
 
-const imageUrl = window.innerWidth >= 650 ? desktopImage : mobileImage;
 
 class App extends React.Component {
 
