@@ -2,7 +2,7 @@
   "name": "portfolio_page_v1",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://www.eduoblys.com",
+  "homepage": "https://www.eduoblys.com",
   "dependencies": {
     "materialize-css": "^1.0.0-rc.2",
     "react": "^16.12.0",
