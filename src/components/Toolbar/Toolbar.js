@@ -9,7 +9,7 @@ const toolbar = props => (
             <div className="toolbar_navigation-items">
                 <ul>
                     <li><Link to="/about" >About!!!</Link></li>
-                    <li><Link to="/myweb" >Homes</Link></li>                    
+                    <li><Link to="/myweb" >Landing</Link></li>                    
                 </ul>
             </div>
         </nav>
