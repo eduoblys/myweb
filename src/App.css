@@ -75,17 +75,18 @@
 }
 
 .text-field {
-  border-style: dotted;
+  color: rgb(255, 255, 255);
   padding: 5px;
   margin: 50px;
 }
 
 .body,html {
   height: 100%;
+  background-color: #3a3939;
 }
 .bg {
 
-  background-image: url("./components/background_pic.jpg");
+  
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
