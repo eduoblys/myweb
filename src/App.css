@@ -15,13 +15,13 @@
 }
 
 .toolbar__logo {
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 
 .toolbar__logo a {
   color: white;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .spacer {
@@ -37,6 +37,7 @@
 
 .toolbar_navigation-items li {
   padding: 0 0.5rem;
+  
 }
 
 .toolbar_navigation-items a {
@@ -45,7 +46,8 @@
 }
 
 .toolbar_navigation-items a:hover,
-.toolbar_navigation-items a:active {
+.toolbar_navigation-items a:target,
+.toolbar_navigation-items a:focus {
   color: rgb(197, 124, 56);
 }
 
@@ -70,8 +72,11 @@
   }
 }
 
-@media (min-width: 569px) {
-
+@media (min-width: 280px) {
+  .main {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 }
 
 .text-field {
@@ -91,4 +96,21 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.social_links  {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-align: bottom;
+  vertical-align: top;
+  display: flex;
+  
+}
+
+
+
+.text-field-small {
+  text-align: center;
+  text-decoration: none;
+  padding-top: 15px;
 }
