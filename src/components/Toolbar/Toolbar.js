@@ -1,20 +1,20 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
-const toolbar = props => (
+const Toolbar = props => (
     <header className="toolbar">
         <nav className="toolbar__navigation">
-            <div className="toolbar__logo"><Link to="/" >Egidijus Duoblys</Link></div>
+            <div className="toolbar__logo">Egidijus Duoblys</div>
             <div className="spacer"></div>
             <div className="toolbar_navigation-items">
                 <ul>
-                    <li><Link to="/about" >About Me</Link></li>
-                    <li><Link to="/" >L</Link></li>                    
-                    <li><Link to="/projects" >Projects</Link></li>                    
+                    <li><NavLink to="about" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>About Me</NavLink></li>
+                    <li><NavLink to="/" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>L</NavLink></li>                    
+                    <li><NavLink to="/projects" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Projects</NavLink></li>                    
                 </ul>
             </div>
         </nav>
     </header>
 );
 
-export default toolbar;
+export default Toolbar;
