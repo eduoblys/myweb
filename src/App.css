@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  background: #9DE0AD;
+  background: #99B898;
   height: 49px;
 }
 
@@ -45,13 +45,7 @@
 
   text-decoration: none;
 }
-/*
-.toolbar_navigation-items a:hover,
-.toolbar_navigation-items a:target,
-.toolbar_navigation-items a:focus {
-  color: rgb(197, 124, 56);
-}
-*/
+
 
 .main {
   margin-top: 56px;
@@ -102,21 +96,13 @@
   }
 }
 
-.text-field {
-  color: rgb(255, 255, 255);
-  padding: 5px;
-  margin: 50px;
-}
-
 .body,html {
   height: 100%;
   padding-bottom: 65px;
   background-color: #3a3939;
-  background-image: linear-gradient(to bottom,  #45ADA8, #594F4F);
-  
+  background-image: linear-gradient(to bottom, #99313f,#2A363B);
+
 }
-
-
 
 .bg {
 
@@ -131,18 +117,23 @@
   color: rgb(255, 255, 255);
   text-decoration: none;
   text-align: bottom;
-  vertical-align: top;
-  display: flex;
+  border: 1px outset red;
+  padding: 5px;
+  margin: 15px;
   
 }
 
 .links {
   margin-top: 25%;
+  padding: 15px;
+  border: 1px outset red;
+  display: flex;
+  flex-direction: row;
 }
 
 .active{
   color: #c52828;;
-  font-size: larger;
+  font-weight:800;
 }
 .inactive{
   color: rgb(0, 0, 0);;
@@ -150,14 +141,28 @@
 
 
 .text-field-small {
-  text-align: center;
   text-decoration: none;
   padding-top: 15px;
+  font-size:75%;
 }
-
+.text-field {
+  color: rgb(255, 255, 255);
+  background-color: #99b89879 ;
+  padding: 15px;
+  margin: 10px;
+  border: 1px outset red;
+}
 
 /*
 Use it in case little bit of debug needed
 *{ border: 1px solid red; }
 
 */
+
+.flex-box {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  flex-wrap: wrap;
+  flex: 150px;
+}

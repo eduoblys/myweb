@@ -8,8 +8,8 @@ const Toolbar = props => (
             <div className="spacer"></div>
             <div className="toolbar_navigation-items">
                 <ul>
+                    <li><NavLink to="/" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Home</NavLink></li>                    
                     <li><NavLink to="about" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>About Me</NavLink></li>
-                    <li><NavLink to="/" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>L</NavLink></li>                    
                     <li><NavLink to="/projects" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Projects</NavLink></li>                    
                 </ul>
             </div>
