@@ -12,6 +12,7 @@
     <p>- [x] Responsive design - CSS and media queries</p>
     <p>- [x] Domain name</p>
     <p>- [  ] Server-site rendering/isomorphic app. Now it's only react-router-dom responsible for routing</p>
+    <p>- [ ] Fix media querry for big screens</p>
 
 </div>
 
