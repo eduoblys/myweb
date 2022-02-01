@@ -126,7 +126,7 @@
 .links {
   margin-top: 25%;
   padding: 15px;
-  border: 1px outset red;
+  border: 1px outset green;
   display: flex;
   flex-direction: row;
 }
