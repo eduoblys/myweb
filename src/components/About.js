@@ -2,15 +2,24 @@ import React from 'react';
 import Github from '../assets/github.png'
 import Linkedin from '../assets/linked.png'
 import Email from '../assets/email.png'
+import Image from '../assets/pic3.svg'
 
 const Home = props => (
     <div>
         <div className="flex-box">
             <div className="text-field">About you! short summary
-                <div className='text-field-small'>It's me blah blah</div>
+                <div className='text-field-small'>
+                    If that above there in cried entreating and him nevernevermore. 
+                    Was said followed this he bust, ungainly now eagerly gileadtell and evilprophet door floor,.
+                </div>
+            </div>
+            <div>
+
             </div>
             <div className="text-field">Non-technical skills: hobbies blah blah
-                <div className='text-field-small'>It's me blah blah</div>
+                <div className='text-field-small'>
+                    
+                </div>
             
             </div>
         </div>
@@ -24,3 +33,5 @@ const Home = props => (
 );
     
 export default Home;
+
+
