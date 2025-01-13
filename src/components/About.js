@@ -16,7 +16,7 @@ const Home = props => (
             <div>
 
             </div>
-            <div className="text-field">Non-technical skills: hobbies blah blah
+            <div className="text-field">Non-technical skills: 
                 <div className='text-field-small'>
                     
                 </div>
