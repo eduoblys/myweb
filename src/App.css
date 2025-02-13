@@ -117,7 +117,7 @@
   color: rgb(255, 255, 255);
   text-decoration: none;
   text-align: bottom;
-  border: 1px outset red;
+ /* border: 1px outset red;*/
   padding: 5px;
   margin: 15px;
   
@@ -126,7 +126,7 @@
 .links {
   margin-top: 25%;
   padding: 15px;
-  border: 1px outset green;
+ /* border: 1px outset green;*/
   display: flex;
   flex-direction: row;
 }
@@ -150,7 +150,7 @@
   background-color: #99b89879 ;
   padding: 15px;
   margin: 10px;
-  border: 1px outset red;
+  /*border: 1px outset red;*/
 }
 
 /*
@@ -162,7 +162,7 @@ Use it in case little bit of debug needed
 .flex-box {
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
+ /* border: 1px solid red;*/
   flex-wrap: wrap;
   flex: 150px;
 }
